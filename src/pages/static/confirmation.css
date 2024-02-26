@@ -1,0 +1,61 @@
+/* confirmation code css */
+
+.confirm-code {
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.confirm-code h2 {
+  font-size: 42px;
+  font-weight: 800;
+  font-family: Isidora;
+  margin-bottom: 5px;
+}
+
+.confirm-code p {
+  font-family: Isidora;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.confirm-code .text {
+  text-align: center;
+}
+
+.confirm-code .icon {
+  font-size: 15px;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.code .box {
+  margin-top: 30px;
+  width: 60px;
+  height: 120px;
+  border: 1px solid #1A8BF7(163, 13, 13);
+  /* box-shadow: 10px 10px 5px lightblue; */
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.resend {
+  margin-top: 90px;
+}
+
+.resend a {
+  text-decoration: none;
+}

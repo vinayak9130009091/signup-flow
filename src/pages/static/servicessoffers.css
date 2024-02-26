@@ -1,0 +1,76 @@
+.form_container1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.TaxPreparation,
+.planning,
+.Advisory,
+.Resolution,
+.Payroll,
+.Accounting,
+.Audit,
+.Lawfirm,
+.Bookkeeping,
+.Otherbtn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.btn-gr,
+.Other-gr {
+  margin-left: 30px;
+}
+
+.selected {
+  color: black;
+  border: 1px solid #007bff;
+  font-weight: bold;
+}
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.containerf p {
+  margin-left: 40px;
+}
+.buttons {
+  align-items: center;
+  margin-left: 40px;
+}
+
+.Next {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 40px;
+}
+.selectall {
+  margin-left: 20px;
+}
+
+@media (max-width: 760px) {
+  .TaxPreparation,
+  .planning,
+  .Advisory,
+  .Resolution,
+  .Payroll,
+  .Accounting,
+  .Audit,
+  .Lawfirm,
+  .Bookkeeping,
+  .Otherbtn {
+    width: 80%;
+  }
+}

@@ -1,0 +1,266 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  color: rgba(8, 144, 235, 0.699);
+  margin: 10px;
+  font-size: 25px;
+}
+h4 {
+  margin-left: 40px;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  position: fixed;
+}
+.size {
+  text-align: center;
+}
+
+.slider {
+  width: 90%;
+  margin-left: 18px;
+  margin-right: 40px;
+  flex: 1;
+}
+.slider-container {
+  align-items: center;
+  display: flex;
+}
+
+.value-display {
+  width: 60px;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 40px;
+}
+.hr {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.p {
+  margin-left: 40px;
+  /* color: red; */
+}
+.info p {
+  margin-left: 40px;
+  font-weight: bold;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.GoogleSerch {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+}
+.GoogleSerch:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.CapterraGetappG2 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+}
+.CapterraGetappG2:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.Fromfriend {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+}
+.Fromfriend:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.Offlineevent {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+}
+.Offlineevent:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.Socialmedia {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+}
+.Socialmedia:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+
+.TaxDomeConsutanrtPartner {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  width: 30%;
+}
+.TaxDomeConsutanrtPartner:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.Other {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  row-gap: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  width: 30%;
+}
+.Other:hover {
+  border: 2px solid rgba(5, 97, 158, 0.699);
+  font-weight: bold;
+}
+.othersoptions {
+  display: flex;
+  text-align: center;
+  margin: 5px;
+
+  width: 60%;
+  align-items: left;
+}
+.btn button {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 40px;
+  background-color: blue;
+  width: 120px;
+  text-align: center;
+  color: white;
+  margin-top: 85px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+.btn button:hover {
+  background-color: rgb(41, 96, 248);
+}
+.icons {
+  margin: 10px;
+  font-size: 30px;
+}
+.rightarrow {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.slider label {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Open Sans;
+  padding-left: 10px;
+  color: black;
+}
+/* .slider input[type="range"] {
+  width: 420px;
+  height: 2px;
+  background: black;
+  border: none;
+  outline: none;
+} */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .slider {
+    width: 80%;
+    margin: 0;
+  }
+
+  .value-display {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .othersoptions {
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .btn button {
+    margin-top: 20px;
+  }
+}
+
+.range-slider-container {
+  width: 100%;
+  margin: 20px auto;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.range-slider {
+  width: 100%;
+}
+
+.numbering {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.numbering span {
+  width: 95px;
+  text-align: center;
+}
+.value p {
+  width: 60px;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 40px;
+}

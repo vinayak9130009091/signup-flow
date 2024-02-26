@@ -1,0 +1,106 @@
+.setting-container {
+  display: flex;
+  margin: 50px;
+  gap: 15px;
+}
+
+.firm-setting {
+  width: 50%;
+  height: auto;
+}
+
+.firm-setting .firm {
+  margin: 10px;
+}
+
+.firm-setting span {
+  color: #1a8bf7;
+}
+
+.firm h2 {
+  font-size: 50px;
+}
+
+.firm .firm-info {
+  display: flex;
+  gap: 50px;
+}
+
+.image {
+  width: 50%;
+  height: 500px;
+}
+
+.image img {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.url {
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.url_container {
+  display: flex;
+  align-items: center;
+}
+
+.url_container .url {
+  width: 50%;
+}
+
+.currency-container {
+  display: flex;
+  gap: 100px;
+}
+
+.custom-input {
+  flex-grow: 1;
+}
+
+.custom-input input[type="radio"] {
+  display: none;
+}
+
+.custom-input label {
+  display: block;
+  padding: 6px 8px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.4s 0s ease;
+}
+
+.custom-input input[type="radio"]:checked + label {
+  background-color: #f5f5f5;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* code verify page  */
+.url_container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.url {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  background: transparent;
+}
+
+.url.placeholder-fixed::placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}

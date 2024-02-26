@@ -1,0 +1,104 @@
+.form_container h1 {
+  align-items: left;
+  margin-left: 99px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.btns :hover {
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.Owner {
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 15%;
+}
+.Accountant {
+  margin: 10px;
+  margin-left: 20px;
+
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 15%;
+}
+.Manager {
+  margin: 10px;
+  margin-left: 20px;
+
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 15%;
+}
+.Admin {
+  margin: 10px;
+  margin-left: 20px;
+
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 15%;
+}
+.Assistant {
+  margin: 10px;
+  margin-left: 20px;
+
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 15%;
+}
+.Other button {
+  margin: 10px;
+  margin-left: 100px;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 10%;
+}
+.Other button:hover {
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.Next {
+  margin: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 8px;
+  width: 10%;
+}
+
+.Next:hover {
+  background-color: rgb(51, 99, 255);
+}
